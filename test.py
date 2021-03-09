@@ -16,6 +16,7 @@ for i in range(len(data)):
 input()
 response = requests.delete(Base + "channel/0")
 print(response)
+
 input()
 response = requests.get(Base + "channel/2")
 print(response.json())
